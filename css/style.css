@@ -1,0 +1,162 @@
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img{
+
+    max-width:100%;
+}
+
+html,body{
+
+    height:100%;
+}
+
+header{
+
+    background:#408785;
+    width:100%;
+    padding:25px;
+}
+
+.logo{
+
+    float:left;
+    position:relative;
+    top:10px;
+}
+
+.menu{
+
+    float:right;
+}
+
+.menu ul li{
+
+    float:left;
+    padding:10px;
+    list-style:none;
+}
+
+.menu a{
+
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#fff;
+}
+
+
+
+.clear{clear:both}
+
+.center{width:100%;max-width:1280px;margin:0 auto;}
+
+section.container-banner{
+
+    width:100%;
+    height:600px;
+    background-image:url('../imagens/bg_viagem.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+section.container-sobre{
+
+    background-color:#c4cc27;
+    width:100%;
+    padding:100px 20px;
+}
+
+.sobre-texto{
+
+    width:50%;
+    float:left;
+    
+}
+
+.sobre-texto h2{
+
+    text-align:center;
+    color:#fff;
+    font-size:23px;
+    padding:20px;
+}
+
+.sobre-texto p{
+
+    width:100%;
+    max-width:700px;
+    color:#fff;
+    display:block;
+    text-align:justify;
+    padding:0 15px;
+}
+
+.sobre-imagem{
+
+    width:50%;
+    float:right;
+    padding:30px;
+    
+}
+
+section.galeria{
+
+    background-color:#1f9996;
+    width:100%;
+    padding:100px 20px;
+}
+
+.galeria-single{
+
+    width:33.3%;
+    float:left;
+    padding:30px;
+}
+
+.galeria-single h3{
+
+    text-align:center;
+    padding:10px;
+}
+
+.galeria-single p{
+
+    width:100%;
+    max-width:500px;
+    padding:10px;
+    text-align:justify;
+    font-size:18px;
+}
+
+@media screen and (max-width: 768px){
+    
+    header{
+
+        width:100%;
+        text-align:center;
+        background-color:#069;
+    }
+    .sobre-texto{
+
+        width:100%;
+    }
+
+    .sobre-imagem{
+
+        width:100%;
+    }
+
+    .galeria-single{
+
+        width:100%;
+    }
+
+}
+
+
